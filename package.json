@@ -1,0 +1,18 @@
+{
+  "name": "form-connect",
+  "version": "1.0.0",
+  "description": "To enter values in db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}
